@@ -4,12 +4,14 @@ title: About Me
 permalink: /about-me/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I have a passion for quality. From years of developing for personal projects, school projects, the Department of Defense, Electronic Arts and even smaller firms like Tipping Canoe, I've experienced varying methods to the madness.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+The concepts of Agile, when to refactor, how and when to apply testing have been shoved this-way-and-that from approach to approach. From experience, discussions and lunch-and-learn conferences I've built a repertoire of philosophy in software design.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+I still have a lot to learn, but I know that my strengths lie in the process of software development. I'm constantly seeking ways to improve the process for business stakeholders and for developers, to ensure the best and most useful software is produced as easily as possible.
+
+My motivation for adjusting documentation to better suite new developers who are on-boarding or finding ways to introduce tests that are meaningful and help developers work without too much bureaucracy is a driving force that contributes to project management and leadership.
+
+I'm excited to be completing my Bachelor of Science in Computer Science so I can exercise the ideas and experience I have.
+
+I want software to be an expression of art, cleverness and professionalism!

@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "Built with Jekyll"
-date:   2017-04-27 12:07:34 -0600
+date:   2017-04-27 12:05:00 -0600
 categories: jekyll built
 main-image: /assets/jekyll-logo.png
 ---
 
 ![Jekyll Logo]({{ site.url }}{{ page.main-image }}){:width="350px"}
 
-This technology is new to me -- in the course of an evening I managed to build and deploy this small website using a lightweight little framework.
+This technology is new to me. In the course of an evening I managed to build and deploy this small website using a lightweight little framework. This simple stack seems perfect for it.
 
 Let me explain how.
 

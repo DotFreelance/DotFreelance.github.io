@@ -4,24 +4,20 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Websites &amp; Projects</h1>
-
-  {{ content }}
+  <h1>Websites &amp; Projects</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
-      <li style="text-align: center; width: 48%; display: inline-block; vertical-align: top; min-height: 250px;">
+      <li style="text-align: center; width: 48%; display: inline-block; vertical-align: top; min-height: 300px;">
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
 
         <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h2>
-        {% if post.main-image %}<img src="{{ site.url }}{{ post.main-image }}" height="150px"/>{% endif %}
+        {% if post.main-image %}<img src="{{ site.url }}{{ post.main-image }}" height="200px"/>{% endif %}
       </li>
     {% endfor %}
   </ul>
-
-  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
 
 </div>
