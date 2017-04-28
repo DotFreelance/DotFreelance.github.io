@@ -1,0 +1,31 @@
+.post-list {
+  li {
+    text-align: center;
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+    min-height: 300px;
+    img {
+      height: 200px;
+    }
+  }
+}
+
+@include media-query($on-laptop){
+  .post-list {
+    li {
+      text-align: initial;
+      width: 100%;
+      .post-meta {
+        @include relative-font-size(1.25);
+      }
+      .post-link{
+        @include relative-font-size(2.0);
+      }
+      img {
+        height: initial;
+        width: initial;
+      }
+    }
+  }
+}
