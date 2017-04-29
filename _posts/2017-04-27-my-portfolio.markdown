@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Built with Jekyll"
+title:  "My Portfolio"
 date:   2017-04-27 12:05:00 -0600
-categories: jekyll built
+categories: jekyll built portfolio github pages
 main-image: /assets/github-pages.png
 ---
 
