@@ -3,7 +3,7 @@ layout: post
 title:  "Built with Jekyll"
 date:   2017-04-27 12:05:00 -0600
 categories: jekyll built
-main-image: /assets/jekyll-alt-logo.png
+main-image: /assets/github-pages.png
 ---
 
 ![Jekyll Logo]({{ site.url }}{{ page.main-image }}){:width="350px"}
