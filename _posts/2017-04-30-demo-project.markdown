@@ -9,7 +9,7 @@ main-image: /assets/symfony.png
 
 _Note: this app was built with Symfony and PHP during my time at Electronic Arts in Burnaby, B.C. Details about the project are the property of Electronic Arts, Inc._
 
-As a member of the back-end development team, our front-end teams wanted to have a better source of truth for what we had available. A demo app allowed the teams to view the code at work in a clean, up to date environment.
+As a member of the back-end development team, we realized our front-end teams wanted to have a better source of truth for what libraries we had available. A demo app allowed the teams to view the code implemented in a clean, up to date environment.
 
 The stack used here was based on **Symfony**, a **PHP** framework that allows you to quickly build a fully featured web application from the ground up. The persistence chosen was **SQL** and the interface to view those changes was built with **Twig** templates.
 

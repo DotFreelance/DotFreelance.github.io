@@ -17,6 +17,6 @@ First and foremost, this page is built using the [Jekyll Framework](https://jeky
 - Liquid Templates
 - Markdown
 
-The whole project is deployed on [Github Pages](https://pages.github.com). This was built as a pre-cursor to the application to **Floatplane**.
+The whole project is deployed on [Github Pages](https://pages.github.com).
 
 Hope you like it!
