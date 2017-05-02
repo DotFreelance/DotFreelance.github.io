@@ -5,7 +5,7 @@ categories: web website site showroom janitorial manitoba winnipeg
 main-image: /assets/showroom.png
 ---
 
-[![Jekyll Logo]({{ site.url }}{{ page.main-image }}){:width="450px"}](http://showroomjanitorial.com)
+[![Showroom Janitorial Site]({{ site.url }}{{ page.main-image }}){:width="450px"}](http://showroomjanitorial.com)
 
 A personal contract, this website was a rebuild from an aging design. The web company that had taken on the project originally had been sold,
 and it was time to move the whole project on and into the modern web.

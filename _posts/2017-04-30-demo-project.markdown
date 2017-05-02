@@ -5,7 +5,7 @@ categories: ea electronic arts web webapp app back-end back end demo
 main-image: /assets/symfony.png
 ---
 
-![Jekyll Logo]({{ site.url }}{{ page.main-image }}){:width="450px"}
+![Swagger]({{ site.url }}{{ page.main-image }}){:width="450px"}
 
 _Note: this app was built with Symfony and PHP during my time at Electronic Arts in Burnaby, B.C. Details about the project are the property of Electronic Arts, Inc._
 

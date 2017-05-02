@@ -6,7 +6,7 @@ categories: maghda costume comiccon blizzcon automation robotics
 main-image: /assets/maghda.jpg
 ---
 
-![Jekyll Logo]({{ site.url }}{{ page.main-image }}){:width="350px"}
+![Maghda Costume]({{ site.url }}{{ page.main-image }}){:width="350px"}
 
 Building elaborate costumes for major events like San-Diego Comic Con or Blizzcon means attention to detail.
 

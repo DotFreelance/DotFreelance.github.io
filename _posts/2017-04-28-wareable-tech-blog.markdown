@@ -5,7 +5,7 @@ categories: web website site blog wearable wareable tech
 main-image: /assets/wareable.png
 ---
 
-[![Jekyll Logo]({{ site.url }}{{ page.main-image }}){:width="450px"}](https://www.wareable.com)
+[![Wareable.com Site]({{ site.url }}{{ page.main-image }}){:width="450px"}](https://www.wareable.com)
 
 _Note: this website was built with Laravel by [Tipping Canoe](http://www.tippingcanoe.com), where I worked. I contributed to the project._
 

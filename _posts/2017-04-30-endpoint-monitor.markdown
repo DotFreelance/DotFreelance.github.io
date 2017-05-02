@@ -5,7 +5,7 @@ categories: ea electronic arts web webapp app swagger monitor
 main-image: /assets/swagger-example.jpeg
 ---
 
-![Jekyll Logo]({{ site.url }}{{ page.main-image }}){:width="450px"}
+![Endpoint Monitor]({{ site.url }}{{ page.main-image }}){:width="450px"}
 
 _Note: this app was built with Node.js and Angular during my time at Electronic Arts in Burnaby, B.C. Details about the project are the property of Electronic Arts, Inc._
 
