@@ -10,7 +10,7 @@ The concepts of Agile, when to refactor, how and when to apply testing have been
 
 I still have a lot to learn, but I know that my strengths lie in the process of software development. I'm constantly seeking ways to improve the process for business stakeholders and for developers, to ensure the best and most useful software is produced as easily as possible.
 
-My motivation for adjusting documentation to better suite new developers who are on-boarding or finding ways to introduce tests that are meaningful and help developers work without too much bureaucracy is a driving force that contributes to project management and leadership.
+My motivation for adjusting documentation to better suit new developers who are on-boarding or finding ways to introduce tests that are meaningful and help developers work without too much bureaucracy is a driving force that contributes to project management and leadership.
 
 I'm excited to be completing my Bachelor of Science in Computer Science so I can exercise the ideas and experience I have.
 
