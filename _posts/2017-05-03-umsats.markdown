@@ -1,0 +1,22 @@
+---
+layout: post
+title: "UMSATS Cube Satellite"
+categories: umsats satellite space microcontroller
+main-image: /assets/umsats-tsat1.jpg
+---
+
+![UMSATS TSAT1]({{ site.url }}{{ page.main-image }}){:width="450px"}
+
+**UMSATS -- University of Manitoba Space Applications and Technology Society**
+
+This team, lead by PhD students in Engineering and Biology, has a goal to put a micro-satellite into space. On-board are the necessary functions for orbiting the Earth in LEO (Low Earth Orbit) as well as two experiments, a solar photography experiment, and a extremophile experiment involving tardigrades.
+
+**My role: Scheduling systems**
+
+The scheduling system's job was to maintain the computational resources of the system and make decisions based on inputs. We were also responsible for handling the messages from ground operations and preparing messages to send to ground, including the imagery. Finally, we also handled any on-board computation such as image processing.
+
+During my time with the UMSATS group I was a member of the Scheduling systems team, the leader of the scheduling systems team, and an interim leader of the entire Software team consisting of multiple sub-teams.
+
+Part of my work was investigating the micro-controller of choice -- which changed from TSAT generation to generation -- to implement features for subsystems, find libraries to interface with hardware, and -- being one of the few computer science students in UMSATS later on -- to help other students with algorithms and architecture.
+
+As a leader, I organized meetings, delegated tasks, and helped others with their projects.
