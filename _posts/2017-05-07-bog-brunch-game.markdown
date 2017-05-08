@@ -67,3 +67,5 @@ Part of that improvement is trimming the excess to make sure that I maintain tha
 It is now 11:00pm on Sunday night, and I feel I have a good start on the project. I have a better idea what it will take to complete the tasks, and have them organized into a priority that makes sense. It's only a matter of time before the game has all of the elements to meet the [Minimum Viable Product](https://github.com/DotFreelance/floatplane/milestone/1).
 
 Goodnight.
+
+### Monday, May 8
