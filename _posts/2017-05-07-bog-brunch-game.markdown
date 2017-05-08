@@ -45,7 +45,7 @@ Today, I have the project public in a git repository, and I've completed several
 **The Balancing Act - An Excerpt About Me**  
 _You can skip this bit if you only want to read about the project itself._  
 
-Some of the hats that we have to wear as developers are as an architect, and as an archivist. It's our job to not only develop software, but to do the unsavory parts -- the parts that most developers consider unsavory, anyway -- that is to create a plan and document it.
+Some of the hats that we have to wear as developers are as an architect and as an archivist. It's our job to not only develop software, but to do the unsavory parts -- the parts that most developers consider unsavory, anyway -- to create a plan and document it.
 
 An influencing factor in my fervor to create initial documentation comes from my time at Electronic Arts, Inc. As a larger company, the process that one goes through is a bit more bureaucratic than you might find at a smaller startup.
 
@@ -55,7 +55,9 @@ For me, I need at least some level of layout before I can really work on a proje
 
 When I first started applying to places for my Computer Science co-op terms, I would frequently be asked what my _weakness_ was. This is one of those questions you think most people answer with _"perfectionist"_ but I chose to answer with a bit more insight into who I am, and to further provide what I thought was a reasonable method to improve upon that weakness.
 
-For me, it was managing a project. Bringing it from idea to reality. I was poor at this. I had finished projects before, but it had always seemed so haphazard, and I never really knew if the project was done-done. However, after several co-op terms and software engineering classes, I've gone out of my way to build up a system, a process that works for me. I am, of course, continually improving this process.
+For me, it was managing a project. Bringing it from idea to reality. I was poor at this. I had finished projects before, but it had always seemed so haphazard, and I never really knew if the project was done-done.
+
+After several co-op terms and software engineering classes, I've gone out of my way to build up a system, a process that works for me. I am, of course, continually improving this process.
 
 Part of that improvement is trimming the excess to make sure that I maintain that delicate balance between useful documentation and bureaucracy.  
 
