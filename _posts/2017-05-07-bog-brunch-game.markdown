@@ -15,7 +15,7 @@ This project is meant to be a test of my skill. My goal: Within a week and 2 day
 What I decided upon was a small, asteroids-inspired frog game where you eat bugs to earn points and avoid wasps. To satisfy the requirements, I decided I would implement a high-score system using Node and MongoDB or CassandraDB.
 
 _**and so it began...**_  
-I received the email with details of the challenge on Friday. Throughout this project I will be posting updates to this blog post, detailing the process. I hope to help others understand what sort of things I encounter from day to day and how I tackle a project like this.
+I received the email with details of the challenge on Friday. Throughout this project I will be posting updates to this blog post detailing the process. I hope to help others understand what sort of things I encounter from day to day and how I tackle a project like this.
 
 ### Saturday, May 6
 
@@ -25,7 +25,7 @@ prototype using the `PIXI.js WebGL` framework.
 **The Prototype**  
 ![Bog Brunch Prototype]({{ site.url }}/assets/bog-brunch/prototype-sample.png){:width="450px"}
 
-Right now, the prototype is simple. It allows you to move around the frog in any direction using the arrow keys, and the frog turns to face that direction. This was built before any documentation was created as a proof of concept (to myself.)
+Right now the prototype is simple. It allows you to move around the frog in any direction using the arrow keys, and the frog turns to face that direction. This was built before any documentation was created as a proof of concept (to myself.)
 
 I had spent some time playing with different WebGL technology, considering:
 1. `Raw WebGL` -- I have a background in Graphics, so it isn't out of the question. However, I knew this project needed to be built quickly, so I looked for frameworks.  
@@ -36,7 +36,7 @@ I had spent some time playing with different WebGL technology, considering:
 
 ### Sunday, May 7
 
-Today, I have the project public in a git repository, and I've completed several of the intention documents, including a [project board](https://github.com/DotFreelance/floatplane/projects/1), an [initial design document](https://github.com/DotFreelance/floatplane/wiki/Initial-Design-Plan), and an [architectural layout](https://github.com/DotFreelance/floatplane/wiki/Architecture).
+Today I have the project public in a git repository, and I've completed several of the intention documents including a [project board](https://github.com/DotFreelance/floatplane/projects/1), an [initial design document](https://github.com/DotFreelance/floatplane/wiki/Initial-Design-Plan), and an [architectural layout](https://github.com/DotFreelance/floatplane/wiki/Architecture).
 
 **The Project Board**  
 ![Bog Brunch Project Board]({{ site.url }}/assets/bog-brunch/prototype-project-board.png){:width="450px"}
@@ -49,7 +49,7 @@ Some of the hats that we have to wear as developers are as an architect and as a
 
 An influencing factor in my fervor to create initial documentation comes from my time at Electronic Arts, Inc. As a larger company, the process that one goes through is a bit more bureaucratic than you might find at a smaller startup.
 
-And therein lies the _balancing act._ Despite my process bent, I understand that sometimes process can be too much. I like to use the term bureaucratic, because it sums up how developers feel about the process. I understand that.
+And therein lies the _balancing act._ Despite my process bent, I understand that sometimes process can be too much. I like to use the term bureaucratic because it sums up how developers feel about the process. I understand that.
 
 For me, I need at least some level of layout before I can really work on a project. I keep a notebook on hand at all times to sketch or take notes, or sometimes I just use textEdit on my Mac (or notepad on Windows) to organize my thoughts.
 
@@ -69,3 +69,26 @@ It is now 11:00pm on Sunday night, and I feel I have a good start on the project
 Goodnight.
 
 ### Monday, May 8
+
+PIXI is a pretty complete solution. It's designed specifically for what I'm attempting to do, so it's no surprise that as I face a new challenge, PIXI has the answer.
+
+The hurdle, though, is figuring out the documentation that's available. [This documentation](https://github.com/kittykatattack/learningPixi) is incredible, but there are small gotchas, technical issues and some editorial errors.
+
+**Hit Detection**  
+Today, my task was to tackle the challenge of hit detection. Thankfully PIXI -- or more specifically _kittykatattack_ -- was prepared to help. A custom function written for rectangle hit detection right in the tutorial, and with a little modification, worked well for what I needed. Originally the function did not account for one rectangle belonging to an object that was not in the global space, thus the modification.
+
+The hit detection for player attack is done on the tip of the tongue and the insects. This allows me to create a _projectile_ style system, and stop the tongue animation once a hit is detected.
+
+![Bog Brunch Class Code Sample]({{ site.url }}/assets/bog-brunch/class-code-sample.png){:width="650px"}
+
+**Points system**  
+Following that, it was a simple matter of creating a `ScoreKeeper` class and submitting the score change. Each Insect sub-class maintains its own point value, so we simply tally it.
+
+![Bog Brunch Frog]({{ site.url }}/assets/bog-brunch/new-player-sprite.png){:width="150px"}
+
+**Fancy New Sprites!**  
+So I did not expect this, but I received help with sprite generation. I now have wonderfully stylized and interesting looking sprites! I also have background static sprites! This helps me complete a lot more of the post-MVP tasks than I had expected to be able to complete within the time limit.
+
+With the character animated, the sprites created and basic hit detection working, it's now a matter of getting the different types of insects spawning onto the board.
+
+### Tuesday, May 9
