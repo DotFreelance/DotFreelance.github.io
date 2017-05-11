@@ -92,3 +92,31 @@ So I did not expect this, but I received help with sprite generation. I now have
 With the character animated, the sprites created and basic hit detection working, it's now a matter of getting the different types of insects spawning onto the board.
 
 ### Tuesday, May 9
+
+Not much more work done today, just tidying and refactoring. It's good for the codebase and my sanity, though.
+
+I always try to maintain a certain modularity. I try to, and pretty strictly do follow the single source of truth idea. I don't like the thought of tracking state over multiple classes, methods, etc. If something needs to be mutated, do it in one place only and always call that part of the interface.
+
+An example of this includes the `InsectSpawner`. It tracks how many insects are on the screen, and how many are allowed to be. Having the insect value modified by the `spawn(insect)` method only means there's much less a chance of a numerical error and thus a runtime issue.
+
+### Wednesday, May 10
+
+Today was the day where the final major piece was completed. Or almost completed. The insects are spawning with the `InsectSpawner` and I have a `Timer` class that handles running the game timer on screen and handles events that I can pass in via an `addEvent()` interface.
+
+![Timer Update Method]({{ site.url }}/assets/bog-brunch/game-timer-update.png){:width="550px"}
+
+The `InsectSpawner` uses a manually created array of difficulty stages that increase the number of enemies on screen and decrease the number of food insects on screen.
+
+Having built the event handling logic in the `Timer` class helped a lot to progress this application further.
+
+A real goddamn **BEAR** was the `setInterval()` method in JavaScript. The issue is that it doesn't maintain the correct `this` context, which means I wouldn't be able to properly refer to the object that spawned it. In order to get around this, I used a piece of code from the MDN, the most trusted source of documentation for the web. [The "this problem"](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval#The_this_problem) details the context issue and the solution I used.
+
+Other issues I faced included me being super tired and not doing basic math properly. Ugh.
+
+### Thursday, May 11
+
+Today I managed to finish the `InsectSpawner` and we now have a working game. There are difficulty stages, a score and a timer. The game has a start screen and an end screen. The core of the game is complete, so it's ready to be deployed to be tested by players.
+
+I plan to use **Heroku** to deploy the application. I've tagged a beta stage on git as `v0.4.0-beta` (check out [semver.org](http://www.semver.org) for more information about tagging convention) and plan to deploy the beta tonight. Hopefully I can convince a few people to play and see what happens.
+
+If I have time, I would like to create a proper testing regime for the game as well. It looks like I may. For now, the beta will have to do and will help ensure this game is properly cross compatible.
