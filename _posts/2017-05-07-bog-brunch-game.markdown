@@ -117,6 +117,8 @@ Other issues I faced included me being super tired and not doing basic math prop
 
 Today I managed to finish the `InsectSpawner` and we now have a working game. There are difficulty stages, a score and a timer. The game has a start screen and an end screen. The core of the game is complete, so it's ready to be deployed to be tested by players.
 
+![The Core Game Complete]({{ site.url }}/assets/bog-brunch/core-game-complete.png){:width="550px"}
+
 I plan to use **Heroku** to deploy the application. I've tagged a beta stage on git as `v0.4.0-beta` (check out [semver.org](http://www.semver.org) for more information about tagging convention) and plan to deploy the beta tonight. Hopefully I can convince a few people to play and see what happens.
 
 If I have time, I would like to create a proper testing regime for the game as well. It looks like I may. For now, the beta will have to do and will help ensure this game is properly cross compatible.
