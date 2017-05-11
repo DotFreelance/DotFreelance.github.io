@@ -7,7 +7,7 @@ main-image: /assets/bog-brunch/pixi-page.png
 
 ![UMSATS TSAT1]({{ site.url }}{{ page.main-image }}){:width="450px"}
 
-**Find the project on GitHub [here](https://github.com/DotFreelance/floatplane). Find the documentation [here](https://github.com/DotFreelance/floatplane/wiki).**
+**Find the live game [here](https://aqueous-refuge-74804.herokuapp.com). Find the project on GitHub [here](https://github.com/DotFreelance/floatplane). Find the documentation [here](https://github.com/DotFreelance/floatplane/wiki).**
 
 This project is meant to be a test of my skill. My goal: Within a week and 2 days, create a game that uses a Node.js server as the backend.
 
