@@ -122,3 +122,14 @@ Today I managed to finish the `InsectSpawner` and we now have a working game. Th
 I plan to use **Heroku** to deploy the application. I've tagged a beta stage on git as `v0.4.0-beta` (check out [semver.org](http://www.semver.org) for more information about tagging convention) and plan to deploy the beta tonight. Hopefully I can convince a few people to play and see what happens.
 
 If I have time, I would like to create a proper testing regime for the game as well. It looks like I may. For now, the beta will have to do and will help ensure this game is properly cross compatible.
+
+**Uh oh. 165hz.**  
+My first test cross platform on my own gaming PC immediately slapped me in the face with an obvious problem. I know -- having taken several Computer Graphics classes -- that binding your animation to framerate is bad. The time an animation takes should be independent of the framerate. Of course, this is how all modern games are built, but I neglected to do this at first because building on a rock solid 60fps was _easy._
+
+A quick fix involving a calculation of the millisecond delta between frames over 1000ms gives you the fraction of a second factor that you can apply to your animations to ensure they run at the expected speed. Now, I specify animations in relation to time: number of seconds or fraction of seconds, as opposed to number of iterations of the animation loop. This was a bit trickier with an animation I had tied tightly to the framerate, but eventually it was sorted.
+
+Thanks to [lazyfoo.net](http://www.lazyfoo.net/SDL_tutorials/lesson32/index.php) for the nudge in the right direction.
+
+Tested on my PC again and all is well.
+
+As part of this process, I submitted a bug request issue on GitHub, completed the development task, tagged it as `v0.4.1-beta` and created a Pull Request from the `develop` branch to the `master` branch. It's a little overboard, but I'm process driven.
