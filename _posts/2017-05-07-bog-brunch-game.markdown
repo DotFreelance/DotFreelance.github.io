@@ -133,3 +133,56 @@ Thanks to [lazyfoo.net](http://www.lazyfoo.net/SDL_tutorials/lesson32/index.php)
 Tested on my PC again and all is well.
 
 As part of this process, I submitted a bug request issue on GitHub, completed the development task, tagged it as `v0.4.1-beta` and created a Pull Request from the `develop` branch to the `master` branch. It's a little overboard, but I'm process driven.
+
+### Friday, May 12
+
+Today was all about the score.
+
+I managed to create a prototype system for the scoreboard. Check out the prototype look below.
+
+![Scoreboard Prototype]({{ site.url }}/assets/bog-brunch/scoreboard-prototype.png){:width="550px"}
+
+This is the part where I needed to create the API using **Node.js + Express**. I set up MongoDB locally and began writing the routes for the API. The API was simple, with only two routes. One to `GET` display the top 10 scores, one to `POST` a new high score. You can find the [API docs here](https://github.com/DotFreelance/floatplane/wiki/API).
+
+This API was terribly simple, and wasn't thoroughly tested like the project for **Software Engineering**. If you want to see the test plan for that API, [check that out here.](https://github.com/kennyhong/Eventus-Server/wiki/API-Integration-Testing-Plan)
+
+### Saturday, May 13
+
+The final major challenge for this game, and one I hadn't fully expected to be able to implement, is to add audio.
+
+For this I used [kittykatattack's Sound.js library.](https://github.com/kittykatattack/sound.js) Implementing the AudioHelper for the game proved to be quite a challenge.
+
+The monster of a class can be seen here: [floatplane/public/javascripts/classes.js -- AudioHelper](https://github.com/DotFreelance/floatplane/blob/master/public/javascripts/classes.js#L189-L354)
+
+This class could be pretty significantly cut down. However, the task to refactor it wasn't possible within the time frame.
+
+> Refactoring is an expected part of the development process. Don't be frozen in perfect-planning-paranoia... build it how you can and then refactor!
+
+In the end, I have awesome music and cute sound effects to show for my efforts and the game is almost complete.
+
+**Almost Complete**  
+![Task Board Nearly Complete]({{ site.url }}/assets/bog-brunch/taskboard-near-complete.png){:width="550px"}
+
+More beta-testing tomorrow and a little bit of sparkle to the game backdrop. But that's tomorrow.
+
+Goodnight.
+
+### Sunday, May 14
+
+Today is the day. The final day. This game's gotta ship.
+
+![Ship It Gif]({{ site.url }}/assets/bog-brunch/ship-it.gif){:width="350px"}
+
+The last little task that I decided to squeeze in was to add animated ripple effects to the game board. More challenging than expected, yet delightfully simple once I figured it out.
+
+In addition to several bugfixes and request changes from the beta players, I tidied up the game page, the comments in the code and re-organized some of the code into more sensible places.
+
+I also created a pretty sweet [gameflow diagram.](https://github.com/DotFreelance/floatplane/wiki/Game-Flow)
+
+All-in-all it's been fun and challenging. I've learned a lot, and I've come to discover a lot I don't know.
+
+I'm very happy with the game. If you haven't already, please give it a try!
+
+### [**Play Bog Brunch!**](https://aqueous-refuge-74804.herokuapp.com/)
+
+![Final Product]({{ site.url }}/assets/bog-brunch/final-product.png){:width="550px"}
