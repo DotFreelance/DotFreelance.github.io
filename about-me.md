@@ -4,7 +4,7 @@ title: About Me
 permalink: /about-me/
 ---
 
-I have a passion for quality. From years of developing for personal projects, school projects, the Department of Defense, Electronic Arts and even smaller firms like Tipping Canoe, I've experienced varying methods to the madness.
+I have a passion for quality. From years of developing for personal projects, school projects, the Department of Defense, Electronic Arts and even smaller firms like Thinkingbox, I've experienced varying methods to the madness.
 
 The concepts of Agile, when to refactor, how and when to apply testing have been shoved this-way-and-that from approach to approach. From experience, discussions and lunch-and-learn conferences I've built a repertoire of philosophy in software design.
 
@@ -12,6 +12,4 @@ I still have a lot to learn, but I know that my strengths lie in the process of 
 
 My motivation for adjusting documentation to better suit new developers who are on-boarding or finding ways to introduce tests that are meaningful and help developers work without too much bureaucracy is a driving force that contributes to project management and leadership.
 
-I'm excited to be completing my Bachelor of Science in Computer Science so I can exercise the ideas and experience I have.
-
-I want software to be an expression of art, cleverness and professionalism!
+I want software to be an expression of art, cleverness and professionalism.
