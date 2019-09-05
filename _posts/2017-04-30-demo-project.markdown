@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Back-End Demo Project"
-categories: ea electronic arts web webapp app back-end back end demo
+categories: websites
 main-image: /assets/symfony.png
 ---
 

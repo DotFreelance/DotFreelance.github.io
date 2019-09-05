@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Showroom Janitorial"
-categories: web website site showroom janitorial manitoba winnipeg
+categories: websites
 main-image: /assets/showroom.png
 ---
 

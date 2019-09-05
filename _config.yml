@@ -16,8 +16,8 @@
 title: Paul Jarrow
 author: Paul Jarrow
 email: paul.freelance@gmail.com
-description: > #
-  Computer Science, Co-op, University of Manitoba 2017
+description: B.SC Computer Science, Hardware+Software, Creative and Colourful
+permalink: /:categories/:title:output_ext
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jarrowp

@@ -2,7 +2,7 @@
 layout: post
 title:  "How I Built This Portfolio"
 date:   2017-04-27 12:05:00 -0600
-categories: jekyll built portfolio github pages
+categories: websites
 main-image: /assets/github-pages.png
 ---
 

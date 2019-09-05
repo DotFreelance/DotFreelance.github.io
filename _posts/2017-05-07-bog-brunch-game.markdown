@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Game: Bog Brunch"
-categories: bog brunch game videogame webgl pixi nodejs express
+categories: games
 main-image: /assets/bog-brunch/pixi-page.png
 ---
 

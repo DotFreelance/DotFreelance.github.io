@@ -1,0 +1,131 @@
+// Constants.
+$slide-up-amount: 25px;
+$slide-up-duration: 1.0s;
+$slide-up-easing: cubic-bezier(.79,.84,.48,.99);
+
+$slide-right-amount: -25px;
+$slide-right-duration: 1.0s;
+$slide-right-easing: $slide-up-easing;
+
+$pop-in-duration: 0.5s;
+$pop-in-easing: ease-out;
+
+
+// Slide up.
+@mixin slide-up-start() {
+    transform: translateY($slide-up-amount);
+    opacity: 0;
+}
+
+@mixin slide-up($delay: 0.5s) {
+    animation: $slide-up-duration slide-up $delay forwards $slide-up-easing;
+}
+
+// nth iteration slide up.
+@mixin n-items-slide-up($times: 25, $factor: 0.1, $delay: 0.5) {
+    @for $i from 1 through $times {
+        &:nth-child(#{$i}) {
+            @include slide-up-start;
+            @include slide-up(#{$delay + $factor * $i}s);
+        }
+    }
+}
+
+// Slide right.
+@mixin slide-right-start() {
+    transform: translateX($slide-right-amount);
+    opacity: 0;
+}
+
+@mixin slide-right($delay: 0.5s) {
+    animation: $slide-right-duration slide-right $delay forwards $slide-right-easing;
+}
+
+// nth iteration slide right.
+@mixin n-items-slide-right($times: 25, $factor: 0.1, $delay: 0.5) {
+    @for $i from 1 through $times {
+        &:nth-child(#{$i}) {
+            @include slide-right-start;
+            @include slide-right(#{$delay + $factor * $i}s);
+        }
+    }
+}
+
+// Pop in.
+@mixin pop-in-start() {
+    opacity: 0;
+}
+
+@mixin pop-in($delay: 0.5s) {
+    animation: $pop-in-duration pop-in $delay forwards $pop-in-easing;
+}
+
+// nth iteration pop in.
+@mixin n-items-pop-in($times: 25, $factor: 0.1, $delay: 0.5) {
+    @for $i from 1 through $times {
+        &:nth-child(#{$i}) {
+            @include pop-in-start();
+            @include pop-in(#{$delay + $factor * $i}s);
+        }
+    }
+}
+
+// Slide In Right.
+@mixin slide-in-right-start() {
+    transform: translateX(-100%);
+}
+
+@mixin slide-in-right($delay: 0.5s) {
+    animation: $slide-right-duration slide-in-right $delay forwards $slide-right-easing;
+}
+
+// nth iteration slide right.
+@mixin n-items-slide-in-right($times: 25, $factor: 0.1, $delay: 0.5) {
+    @for $i from 1 through $times {
+        &:nth-child(#{$i}) {
+            @include slide-in-right-start;
+            @include slide-in-right(#{$delay + $factor * $i}s);
+        }
+    }
+}
+
+// Animations.
+@keyframes slide-up {
+    from {
+        transform: translateY($slide-up-amount);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-right {
+    from {
+        transform: translateX($slide-right-amount);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes pop-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-right {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}

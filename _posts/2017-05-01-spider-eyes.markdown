@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spiderize Spider Eyes"
-categories: unity videogame game spider eyes webgl creepy
+categories: games
 main-image: /assets/spider-eyes-game.png
 ---
 

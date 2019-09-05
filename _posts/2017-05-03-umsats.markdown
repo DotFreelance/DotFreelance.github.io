@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "UMSATS Cube Satellite"
-categories: umsats satellite space microcontroller
+categories: hardware
 main-image: /assets/umsats-tsat1.jpg
 ---
 

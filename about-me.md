@@ -1,15 +1,17 @@
 ---
-layout: page
+layout: about-me
 title: About Me
 permalink: /about-me/
 ---
 
-I have a passion for quality. From years of developing for personal projects, school projects, the Department of Defense, Electronic Arts and even smaller firms like Thinkingbox, I've experienced varying methods to the madness.
+ ![Picture of Paul]({{ site.url }}/assets/pic-of-me.jpg){:width="250px"}
 
-The concepts of Agile, when to refactor, how and when to apply testing have been shoved this-way-and-that from approach to approach. From experience, discussions and lunch-and-learn conferences I've built a repertoire of philosophy in software design.
+ My name is Paul.
 
-I still have a lot to learn, but I know that my strengths lie in the process of software development. I'm constantly seeking ways to improve the process for business stakeholders and for developers, to ensure the best and most useful software is produced as easily as possible.
+I'm a web &amp; software developer. I tend to consider myself a generalist. I have a B.Sc. in Computer Science.
 
-My motivation for adjusting documentation to better suit new developers who are on-boarding or finding ways to introduce tests that are meaningful and help developers work without too much bureaucracy is a driving force that contributes to project management and leadership.
+When it comes to technology and the philosophy of developing software, my goal is ubiquity. Our technology should work for us. It should blend into our lives.
 
-I want software to be an expression of art, cleverness and professionalism.
+The web is a complex tech stack, and an interesting one. It's evolving to become the largest industry, pushing its way onto mobile and offering more and more capability every day. With progressive web apps, new browser APIs and full software-as-a-service platforms, it's never been easier to bring an idea to life.
+
+Let me help you bring your ideas to life.

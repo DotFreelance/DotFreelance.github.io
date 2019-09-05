@@ -2,7 +2,7 @@
 layout: post
 title: "Maghda Costume Automation"
 date:   2017-04-27 12:07:00 -0600
-categories: maghda costume comiccon blizzcon automation robotics
+categories: hardware
 main-image: /assets/maghda.jpg
 ---
 

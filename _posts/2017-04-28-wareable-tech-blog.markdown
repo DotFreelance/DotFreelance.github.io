@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Wareable Tech Blog"
-categories: web website site blog wearable wareable tech
+categories: websites
 main-image: /assets/wareable.png
 ---
 

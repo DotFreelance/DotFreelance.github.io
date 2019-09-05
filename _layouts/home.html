@@ -4,20 +4,19 @@ layout: default
 
 <div class="home">
 
-  <h1>Websites &amp; Projects</h1>
+    <h1 style="--show-title-delay: {{ POST_DELAY_OFFSET }}s">Websites &amp; Projects</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-        {% if post.main-image %}<img src="{{ site.url }}{{ post.main-image }}" />{% endif %}
-      </li>
-    {% endfor %}
-  </ul>
+    <ul class="post-list">
+        {% for post in site.posts %}
+            <li>
+                <a class="post-link" href="{{ post.url | relative_url }}">
+                    {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+                    <span class="post-meta">{{ post.date | date: date_format }}</span>
+                    <h2>{{ post.title | escape }}</h2>
+                    {% if post.main-image %}<img src="{{ site.url }}{{ post.main-image }}" />{% endif %}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
 
 </div>

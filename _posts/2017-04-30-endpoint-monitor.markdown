@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Swagger Endpoint Monitor"
-categories: ea electronic arts web webapp app swagger monitor
+categories: software
 main-image: /assets/swagger-example.jpeg
 ---
 

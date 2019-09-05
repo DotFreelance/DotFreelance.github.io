@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Software Engineering: API"
-categories: laravel php api software engineering
+categories: software
 main-image: /assets/eventus-code.png
 ---
 
